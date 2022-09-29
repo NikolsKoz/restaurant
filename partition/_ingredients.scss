@@ -1,0 +1,56 @@
+.ingredients {
+    display: flex;
+    align-items: center;
+    background: {
+    image: url(images/ingredients.jpg);
+    position: center top;
+    repeat: no-repeat;
+    size: cover;
+}}
+
+.rectangle {
+
+    background: rgba(0, 0, 0, 0.8);
+    position: center top;
+    repeat: no-repeat;
+    size: cover;
+    color: $color_white;
+    padding: 50px;
+    text-align: center;
+    h2 {   
+            font-size: 36px;
+            line-height: 42px;
+        &::after {
+            content: url(images/Vector3.png);
+            display: block;
+            margin: 20px auto;
+        }
+    }
+}
+.ellipse1, .ellipse2, .ellipse3{
+
+//    padding-top: 50px;
+    @media(max-width:1078px){
+    display: none;
+        }
+}
+
+.ellipse1 {
+    &::after {
+        content: url(images/Ellipse1.png);
+        display: block;
+        margin: 0;
+    }}
+.ellipse2 {
+    &::after {
+        content: url(images/Ellipse2.png);
+        display: block;
+        margin: 0;
+    }}
+.ellipse3 {
+    &::after {
+        content: url(images/Ellipse3.png);
+        display: block;
+        margin: 0;
+    }}
+

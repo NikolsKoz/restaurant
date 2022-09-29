@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Yeseva+One&display=swap");
+h1, h2, h3 {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal; }
+
+h2 {
+  font-size: 46px; }
+
+h3 {
+  font-size: 20px; }
+
+h4 {
+  font-size: 12px; }
+
+p {
+  font-size: 16px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Lato";
+  font-size: 16px;
+  color: #4c4c4c;
+  line-height: 180%; }
+
+body > div:not(.footer) {
+  padding: 100px 0;
+  min-height: 750px; }
+
+.header {
+  display: flex;
+  align-items: center;
+  background-image: url(images/aef026e3ac051e8cd0148a0c9f95fad8.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .header h1 {
+    text-align: center;
+    text-shadow: 2px 2px 0 #000;
+    font-size: 90px;
+    line-height: 1.2em;
+    color: #ffffff; }
+    @media (max-width: 768px) {
+      .header h1 {
+        font-size: 45px; } }
+    .header h1::after {
+      content: url(images/vector.png);
+      display: block;
+      margin: 50px auto; }
+  .header__button {
+    display: flex;
+    justify-content: center; }
+    @media (max-width: 576px) {
+      .header__button {
+        flex-direction: column; } }
+  .header__button-items {
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #FFFFFF;
+    display: block;
+    padding: 30px;
+    margin: 15px;
+    font-size: 18px; }
+    @media (max-width: 576px) {
+      .header__button-items {
+        margin: 15px auto; } }
+
+.about {
+  background-image: linear-gradient(to left, #7777, #0000); }
+  .about__text {
+    text-align: center;
+    text-shadow: none; }
+  .about__foto::after {
+    content: url(images/dish.png);
+    display: block;
+    margin: 0; }
+
+.text__content h2 {
+  color: #CC9900;
+  font-size: 36px;
+  line-height: 42px; }
+  .text__content h2::after {
+    content: url(images/Vector2.png);
+    display: block;
+    margin: 20px auto; }
+
+.text__foto::after {
+  content: url(images/cook.png);
+  display: block;
+  margin: 20px 0 0 100px; }
+
+.ingredients {
+  display: flex;
+  align-items: center;
+  background-image: url(images/ingredients.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.rectangle {
+  background: rgba(0, 0, 0, 0.8);
+  position: center top;
+  repeat: no-repeat;
+  size: cover;
+  color: #ffffff;
+  padding: 50px;
+  text-align: center; }
+  .rectangle h2 {
+    font-size: 36px;
+    line-height: 42px; }
+    .rectangle h2::after {
+      content: url(images/Vector3.png);
+      display: block;
+      margin: 20px auto; }
+
+@media (max-width: 1078px) {
+  .ellipse1, .ellipse2, .ellipse3 {
+    display: none; } }
+
+.ellipse1::after {
+  content: url(images/Ellipse1.png);
+  display: block;
+  margin: 0; }
+
+.ellipse2::after {
+  content: url(images/Ellipse2.png);
+  display: block;
+  margin: 0; }
+
+.ellipse3::after {
+  content: url(images/Ellipse3.png);
+  display: block;
+  margin: 0; }
+
+.menu {
+  background-image: linear-gradient(to left, #7777, #0000); }
+  .menu h1,
+  .menu h2,
+  .menu h3,
+  .menu hr {
+    color: #CC9900; }
+  .menu h2 {
+    text-align: center; }
+    .menu h2::after {
+      content: url(images/Vector2.png);
+      display: block;
+      margin: 0px auto; }
+  .menu h3 {
+    line-height: 5px;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-decoration-color: #CC9900; }
+  .menu h4 {
+    line-height: 5px;
+    margin: 20px 0 50px 0; }
+
+.menu1,
+.menu2 {
+  padding-left: 60px;
+  padding-right: 60px; }
+  @media (max-width: 1200px) {
+    .menu1,
+    .menu2 {
+      padding-left: 25px;
+      padding-right: 25px; } }
+
+.reviews {
+  display: flex;
+  align-items: center;
+  background-image: url(images/reviews.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.rectangle {
+  padding: 100px; }
+  .rectangle h2::after {
+    content: url(images/Vector3.png);
+    display: block;
+    margin: 20px auto; }
+
+.reservation {
+  background-image: linear-gradient(to left, #7777, #0000); }
+
+.foto__appetisers img {
+  width: 48%;
+  margin: 0 1%;
+  float: left; }
+
+.appetisers {
+  padding: 30px 60px;
+  text-align: center;
+  align-content: center; }
+  .appetisers h2 {
+    color: #CC9900; }
+    .appetisers h2::after {
+      content: url(images/Vector2.png);
+      display: block;
+      margin-bottom: 50px auto; }
+  .appetisers label {
+    font-weight: bold;
+    color: #CC9900;
+    text-align: left;
+    margin-left: 5px; }
+  .appetisers input {
+    padding: 2px;
+    color: #9B9B9B;
+    border: 1px solid #9B9B9B;
+    font-style: italic; }
+  .appetisers button {
+    height: 35px;
+    width: 190px;
+    color: #ffffff;
+    background-color: #CC9900;
+    border: none;
+    margin-top: 30px; }
+
+.footer {
+  margin: 0;
+  padding: 50px;
+  background-color: #4c4c4c;
+  color: #ffffff;
+  text-align: center; }
+  .footer h3::after {
+    content: url(images/Vector3.png);
+    display: block;
+    margin: 24px auto; }
+
+.logo {
+  width: 43.72px;
+  height: 28.33px;
+  margin: 10px 5px; }
+
+.one,
+.three {
+  background-image: url(images/pay.png); }
+
+.two,
+.four {
+  background-image: url(images/web.png); }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+.reservation {
+     background-image: linear-gradient(to left, #7777, #0000);
+}
+.foto__appetisers {
+    
+    img {
+        width: 48%;
+        margin: 0 1%;
+        float:left;
+    }
+}
+.appetisers {
+    padding: 30px 60px;
+    text-align: center;
+    align-content: center;
+    h2 {
+        color: $color_gold_one;
+        
+
+        &::after {
+            content: url(images/Vector2.png);
+            display: block;
+            margin-bottom: 50px auto;
+        }
+    }
+
+    label {
+        font-weight: bold;
+        color: $color_gold_one;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+
+    input {
+        padding: 2px;
+        color:$color_grey_two;
+        border: 1px solid #9B9B9B;
+        font-style: italic;
+    }
+    button {
+        height: 35px;
+        width: 190px;
+        color: $color_white;
+        background-color: $color_gold_one;
+        border: none;
+        margin-top: 30px;
+    }
+}
+
+

@@ -1,0 +1,40 @@
+.about {
+        background-image: linear-gradient(to left, #7777, #0000);
+
+
+    &__text {
+        text: {
+        align: center;
+            shadow: none;}
+    }
+    &__foto {
+        &::after {
+            content: url(images/dish.png);
+            display: block;
+            margin: 0;
+    }
+}
+}
+
+    .text__content {
+
+        h2 {
+            color: $color_gold_one;
+            font-size: 36px;
+            line-height: 42px;
+        &::after {
+            content: url(images/Vector2.png);
+            display: block;
+            margin: 20px auto;
+        }
+        }
+    }
+    .text__foto {
+        &::after {
+            content: url(images/cook.png);
+            display: block;
+            margin: 20px 0 0 100px;
+        }}
+
+
+
